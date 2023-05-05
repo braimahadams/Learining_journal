@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: cabin;
+}
+
+nav {
+  display: flex;
+  padding: 20px;
+  background-color: azure;
+  color: #fff;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover,
+.viewmore a:hover {
+  opacity: 0.3;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  margin-left: 65%;
+}
+
+.menu li {
+  margin: 20px;
+}
+.alltogether{
+  background-color: black;
+  padding-bottom: 50px;
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.blogs section {
+  margin: 70px;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.blogs img {
+  border-radius: 2rem;
+}
+
+.mainimage {
+  display: block;
+  height: 800px;
+  width: 100%;
+}
+
+.image p,
+.image h1 {
+  color: black;
+}
+
+.image figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 70px;
+  font-size: 16px;
+  text-align: left;
+}
+
+p,
+h1 {
+  color: white;
+}
+
+figcaption p {
+  margin: 15px;
+  font-size: 16px;
+}
+
+figcaption h1 {
+  margin: 15px;
+}
+
+footer {
+  background-color: white;
+}
